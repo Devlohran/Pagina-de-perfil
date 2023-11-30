@@ -1,0 +1,30 @@
+C:\Users\figue\source\repos\pagina de perfil\bin\Release\net7.0\appsettings.Development.json
+C:\Users\figue\source\repos\pagina de perfil\bin\Release\net7.0\appsettings.json
+C:\Users\figue\source\repos\pagina de perfil\bin\Release\net7.0\pagina de perfil.staticwebassets.runtime.json
+C:\Users\figue\source\repos\pagina de perfil\bin\Release\net7.0\pagina de perfil.exe
+C:\Users\figue\source\repos\pagina de perfil\bin\Release\net7.0\pagina de perfil.deps.json
+C:\Users\figue\source\repos\pagina de perfil\bin\Release\net7.0\pagina de perfil.runtimeconfig.json
+C:\Users\figue\source\repos\pagina de perfil\bin\Release\net7.0\pagina de perfil.dll
+C:\Users\figue\source\repos\pagina de perfil\bin\Release\net7.0\pagina de perfil.pdb
+C:\Users\figue\source\repos\pagina de perfil\obj\Release\net7.0\pagina de perfil.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\figue\source\repos\pagina de perfil\obj\Release\net7.0\pagina de perfil.AssemblyInfoInputs.cache
+C:\Users\figue\source\repos\pagina de perfil\obj\Release\net7.0\pagina de perfil.AssemblyInfo.cs
+C:\Users\figue\source\repos\pagina de perfil\obj\Release\net7.0\pagina de perfil.csproj.CoreCompileInputs.cache
+C:\Users\figue\source\repos\pagina de perfil\obj\Release\net7.0\pagina de perfil.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\figue\source\repos\pagina de perfil\obj\Release\net7.0\pagina de perfil.RazorAssemblyInfo.cache
+C:\Users\figue\source\repos\pagina de perfil\obj\Release\net7.0\pagina de perfil.RazorAssemblyInfo.cs
+C:\Users\figue\source\repos\pagina de perfil\obj\Release\net7.0\staticwebassets\msbuild.pagina de perfil.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\figue\source\repos\pagina de perfil\obj\Release\net7.0\staticwebassets\msbuild.build.pagina de perfil.props
+C:\Users\figue\source\repos\pagina de perfil\obj\Release\net7.0\staticwebassets\msbuild.buildMultiTargeting.pagina de perfil.props
+C:\Users\figue\source\repos\pagina de perfil\obj\Release\net7.0\staticwebassets\msbuild.buildTransitive.pagina de perfil.props
+C:\Users\figue\source\repos\pagina de perfil\obj\Release\net7.0\staticwebassets.pack.json
+C:\Users\figue\source\repos\pagina de perfil\obj\Release\net7.0\staticwebassets.build.json
+C:\Users\figue\source\repos\pagina de perfil\obj\Release\net7.0\staticwebassets.development.json
+C:\Users\figue\source\repos\pagina de perfil\obj\Release\net7.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\figue\source\repos\pagina de perfil\obj\Release\net7.0\scopedcss\bundle\pagina de perfil.styles.css
+C:\Users\figue\source\repos\pagina de perfil\obj\Release\net7.0\scopedcss\projectbundle\pagina de perfil.bundle.scp.css
+C:\Users\figue\source\repos\pagina de perfil\obj\Release\net7.0\pagina de perfil.dll
+C:\Users\figue\source\repos\pagina de perfil\obj\Release\net7.0\refint\pagina de perfil.dll
+C:\Users\figue\source\repos\pagina de perfil\obj\Release\net7.0\pagina de perfil.pdb
+C:\Users\figue\source\repos\pagina de perfil\obj\Release\net7.0\pagina de perfil.genruntimeconfig.cache
+C:\Users\figue\source\repos\pagina de perfil\obj\Release\net7.0\ref\pagina de perfil.dll

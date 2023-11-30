@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - programador</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/pagina_de_perfil.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <!-- Conteúdo principal -->
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+        <div class="images-container">
+            <img src="/images/perfil.jpg" class="profile-pic">
+            <a href="https://www.instagram.com/lohran_2/">
+                <img src="/images/instagram.png" class="icon-pic" alt="Ícone do Instagram">
+            </a>
+            <a href="https://github.com/Devlohran">
+                <img src="/images/github.png" class="icon-pic" alt="Ícone do GitHub">
+            </a>
+            <a href="https://discord.gg/QSxrTEy8">
+                <img src="/images/discord.png" class="icon-pic" alt="Ícone do Discord">
+            </a>
+        </div>
+
+        <section class="linguagens-section">
+            <h2>Proficiências</h2>
+            <ul>
+                <li>C#</li>
+                <li>Python</li>
+                <li>HTML/CSS</li>
+            </ul>
+        </section>
+
+        <audio controls autoplay loop class="fixed-audio">
+            <source src="/audio/mesmahistoria.mp3" type="audio/mpeg">
+            Seu navegador não suporta o elemento de áudio.
+        </audio>
+    </div>
+
+    <!-- Rodapé -->
+    <footer class="border-top footer text-muted fixed-footer">
+        <div class="container">
+            &copy; 2023 - LHNbala <a asp-area=""></a>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
