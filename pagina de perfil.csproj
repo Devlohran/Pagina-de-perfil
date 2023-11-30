@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>pagina_de_perfil</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Pages\Shared\audio\**" />
+    <Compile Remove="wwwroot\imagens\**" />
+    <Content Remove="Pages\Shared\audio\**" />
+    <Content Remove="wwwroot\imagens\**" />
+    <EmbeddedResource Remove="Pages\Shared\audio\**" />
+    <EmbeddedResource Remove="wwwroot\imagens\**" />
+    <None Remove="Pages\Shared\audio\**" />
+    <None Remove="wwwroot\imagens\**" />
+  </ItemGroup>
+
+</Project>

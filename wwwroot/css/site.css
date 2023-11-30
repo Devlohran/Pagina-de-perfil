@@ -1,0 +1,118 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    background: url('/images/pagina.gif');
+    background-size: cover;
+}
+.profile-pic {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    width: 200px; /* Defina o tamanho desejado em pixels */
+    height: 200px; /* Defina o tamanho desejado em pixels */
+    object-fit: cover; /* Garante que a imagem cubra completamente o contêiner mantendo a proporção. */
+}
+.fixed-footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.fixed-audio {
+    position: fixed;
+    bottom: 50px; /* Ajuste a distância conforme necessário */
+    left: 0;
+}
+
+@keyframes pulse {
+    0% {
+        border-color: #FF0000; /* Cor inicial, vermelho */
+        box-shadow: 0 0 10px 5px #FF0000; /* Sombra inicial, vermelho */
+    }
+
+    50% {
+        border-color: #0000FF; /* Cor intermediária, azul */
+        box-shadow: 0 0 20px 10px #0000FF; /* Sombra intermediária, azul */
+    }
+
+    100% {
+        border-color: #FF0000; /* Cor final, volta para a cor inicial, vermelho */
+        box-shadow: 0 0 10px 5px #FF0000; /* Sombra final, volta para a sombra inicial, vermelho */
+    }
+}
+
+.images-container {
+    text-align: center;
+    border: 2px solid #FF0000; /* Cor da borda, substitua conforme necessário */
+    border-radius: 10px;
+    padding: 10px;
+    width: 250px;
+    margin: 0 auto;
+    animation: pulse 2s infinite; /* 2s é a duração da animação, infinite faz com que ela se repita continuamente */
+}
+
+.linguagens-section {
+    text-align: center; /* Para centralizar o conteúdo */
+    border: 2px solid #ccc; /* Adiciona uma borda sólida de 2px com cor cinza (#ccc) */
+    border-radius: 10px; /* Adiciona uma borda arredondada de 10px */
+    padding: 20px; /* Adiciona um espaçamento interno de 20px */
+    width: 250px; /* Define a largura máxima do bloco */
+    margin: auto; /* Para centralizar o bloco na página */
+    margin-top: 20px; /* Adiciona uma margem superior de 20px */
+    display: flex; /* Ativa o modelo de layout flexível */
+    flex-direction: column; /* Define a direção do layout como coluna (empilhado verticalmente) */
+    align-items: center; /* Alinha os itens no centro horizontalmente */
+}
+
+.linguagens-section h2 {
+        color: white; /* Altera a cor do texto para branco */
+}
+@keyframes glowing {
+    0% {
+        text-shadow: 0 0 5px #FFD700, 0 0 10px #FFD700, 0 0 15px #FFD700, 0 0 20px #FF8C00;
+    }
+
+    50% {
+        text-shadow: 0 0 10px #FFAA00, 0 0 20px #FFAA00, 0 0 30px #FFAA00, 0 0 40px #FFAA00;
+    }
+
+    100% {
+        text-shadow: 0 0 5px #FFD700, 0 0 10px #FFD700, 0 0 15px #FFD700, 0 0 20px #FF8C00;
+    }
+}
+
+.linguagens-section ul li {
+    color: #FFD700; /* Cor do texto dourado */
+    animation: glowing 2s infinite; /* Aplica a animação 'glowing' */
+}
+
+.icon-pic {
+    width: 50px; /* Defina a largura desejada */
+    height: 50px; /* Defina a altura desejada */
+    border-radius: 50%; /* Isso cria uma borda circular para a imagem */
+    margin: 10px; /* Adiciona um espaçamento ao redor da imagem (ajuste conforme necessário) */
+    border: 2px solid #fff; /* Adiciona uma borda branca à imagem */
+}
+.icon-pic:hover {
+        filter: brightness(110%); /* Aumenta o brilho da imagem em 10% */
+}
+
+
+
